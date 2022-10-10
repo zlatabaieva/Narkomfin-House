@@ -1,0 +1,53 @@
+section h2{
+  font-size: 30px;
+}
+section div{
+  width: 49%;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+}
+section div:nth-child(even) h2,section div:nth-child(even) p {
+  padding: 80px 0 0 40px;
+}
+section h2, section p{
+  width: 85%;
+    margin: 0 auto 0 17%;
+}
+section:nth-child(2) h2,
+section:nth-child(2) p{
+width:85%
+}
+
+section h2{
+font-size: 40px;
+margin-top: 140px;
+margin-bottom: 30px;
+line-height: 40px;
+}
+section p{
+  font-size: 26px;
+  line-height: 36px;
+}
+section div:nth-child(even) h2,
+section div:nth-child(even) p,{
+margin-left: 50px;
+}
+section img{
+margin: 60px 0 0 22px;
+}
+.bottom_block{
+text-align: center;
+width: 800px;
+margin: 0 auto;
+  font-size: 30px;
+
+}
+.bottom_block a{
+  text-decoration: none;
+  border: 1px solid #888;
+  font-style: 18px;
+  padding: 10px 30px;
+  margin-top: 50px;
+  display: inline-block;
+}
